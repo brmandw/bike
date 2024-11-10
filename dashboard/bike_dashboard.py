@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 hour_df = pd.read_csv('/Users/macbook/pito/dashboard/hour.csv')
 
-st.header("BIKE HAVING")
+st.header("BIKE SHARING")
 
 st.subheader('Cuaca Paling Banyak Meraih Pengguna')
 
