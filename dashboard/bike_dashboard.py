@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-hour_df = pd.read_csv('/Users/macbook/pito/dashboard/hour.csv')
+hour_df = pd.read_csv('hour.csv')
 
 st.header("BIKE SHARING")
 
