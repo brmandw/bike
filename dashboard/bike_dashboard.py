@@ -51,10 +51,10 @@ hour_df['hr_cut']=pd.cut(hour_df.hr, bins=24, right=False,
 banyak_user_jam_weather = hour_df.groupby(by=["hr_cut", "weathersit"]).cnt.sum().reset_index()
 
 sns.barplot(
-    data=banyak_user_jam_weather,
     x="hr_cut",
     y="cnt",
     hue="weathersit",
+    data=banyak_user_jam_weather,
 )
 ax.set_ylabel("Jumlah User", fontsize=15)
 ax.set_xlabel("Jam", fontsize=15)
